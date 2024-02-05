@@ -1,8 +1,8 @@
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: consolas;
     color: #EAE8FF;
     background: #2D3142;
-    padding: 0 40px;
+    padding: 0 20%;
     text-align: center;
 }
 
@@ -40,11 +40,23 @@ h1 {
 
 h1 strong {
     background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgb(134, 0, 175) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 img.about {
+    padding-top: 50px;
     opacity: 0.5;
+}
+
+.posts {
+    width: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #2a2d3d;
+}
+
+.logo {
+    padding-top: 50px;
 }
