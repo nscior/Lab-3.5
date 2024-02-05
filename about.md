@@ -16,3 +16,5 @@ title: About
 </div>
 
 <img class="logo" alt="logo" src="/images/Logo.png" width="100" />
+
+{% twitter_user 'Leo' 'lunarleo' %}
